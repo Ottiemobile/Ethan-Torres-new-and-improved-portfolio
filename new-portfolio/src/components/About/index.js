@@ -5,10 +5,10 @@ function About() {
 
     return (
         <section className="about">
-            <div class="container">
-                <div class="row align-items-center my-5">
-                    <div class="col-lg-5">
-                        <h2 class="font-weight-light">
+            <div className="container">
+                <div className="row align-items-center my-5">
+                    <div className="col-lg-5">
+                        <h2 className="font-weight-light">
                             About Me
                         </h2>
                         <p>
