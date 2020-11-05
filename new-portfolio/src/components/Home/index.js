@@ -7,7 +7,7 @@ function Home() {
                 <div className="col-lg-7">
                     <img 
                         className="img-fluid rounded mb-4 mb-lg-0"
-                        src="../../assets/images/profile-pic.jpg"
+                        src="../assets/images/profile-pic.jpg"
                         alt="The man himself: Ethan Torres"
                     ></img>
                 </div>
