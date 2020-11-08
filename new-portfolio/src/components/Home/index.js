@@ -1,15 +1,16 @@
 import React from "react";
+import Profile from "../../assets/images/profile-pic.jpg";
 
 function Home() {
     return (
         <div className="home">
-            <div className="container">
+            <div className="container row align-items-center">
                 <div className="col-lg-7">
                     <img 
-                        className="img-fluid rounded mb-4 mb-lg-0"
-                        src="../assets/images/profile-pic.jpg"
+                        className="photo"
+                        src={Profile}
                         alt="The man himself: Ethan Torres"
-                    ></img>
+                   />
                 </div>
                 <div className="col-lg-5">
                     <h1 className="font-weight-light">HOME</h1>

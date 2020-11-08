@@ -6,9 +6,9 @@ function About() {
     return (
         <section className="about">
             <div className="container">
-                <div className="row align-items-center my-5">
-                    <div className="col-lg-5">
-                        <h2 className="font-weight-light">
+                <div className=" align-items-center my-5">
+                    <div className="align-items-center">
+                        <h2 class="font-weight-light">
                             About Me
                         </h2>
                         <p>

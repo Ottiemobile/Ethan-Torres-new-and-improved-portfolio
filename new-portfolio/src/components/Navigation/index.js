@@ -7,10 +7,6 @@ function Navigation(props) {
         <section className="navigation">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
-                    <Link className="navbar-head" to="/">
-                        <h1>Ethan Torres</h1>
-                    </Link>
-
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -54,6 +50,15 @@ function Navigation(props) {
                                 <Link className="nav-link" to="/contact">
                                     Contact Me
                                 </Link>
+                            </li>
+                            <li
+                                 className={`nav-item ${
+                                 props.location.pathname === "/resume" ? "active" : ""
+                                }`}
+                            > 
+                                <Link className="nav-link" to="/resume">
+                                    Resume    
+                                </Link>    
                             </li>
 
                         </ul>

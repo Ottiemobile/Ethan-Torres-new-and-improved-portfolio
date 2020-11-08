@@ -1,19 +1,13 @@
 import React from 'react';
+import { Navigation } from '..';
 
-function Nav() {
-    <section className="nav">
-        <ul className="flex-row">
-            <li className="mx-2">
-                <a href="#about">
-                    About
-                </a>
-            </li>
-            <li className="mx-2">
-                <a href="#contact">
-
-                </a>
-
-            </li>
-        </ul>
+function Header() {
+    return(
+    <section className="header">
+        <h1>Ethan Torres</h1>
+        <Navigation></Navigation>
     </section>
+    )
 }
+
+export default Header;
